@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="parteSX">
+            <div class="scritte">
+                <p class="titolo">Learn to code by</p>
+                <p class="titolo">watching others</p>
+                <br><br>
+                <p class="didascalia">See how experienced developers solve problems in real-time.</p>
+                <p class="didascalia">Watching scripted tutorials is great, but understanding how</p>
+                <p class="didascalia">developers think is invualable.</p>
+            </div>
+        </div>
+        <div class="parteDX">
+            <div class="promo">
+                <p class="promo-testo1">Try it free 7 days</p>
+                <p class="promo-testo2">&nbsp; then $20/mo. thereafter</p>
+            </div>
+            <div class="compila">
+                <br>
+                <div class="errore-div">
+                    <input type="text" class="campo" name="NOME" id="nome" placeholder="Inserisci il nome" maxlength="30">
+                    <p class="errore" id="err-nome">First Name cannot be empty</p>
+                </div>
+
+                <div class="errore-div">
+                    <input type="text" class="campo" name="COGNOME" id="cognome" placeholder="Inserisci il cognome" maxlength="30">
+                    <p class="errore" id="err-cognome">Last Name cannot be empty</p>
+                </div>
+                
+                <div class="errore-div">
+                    <input type="email" class="campo" name="EMAIL" id="email" placeholder="Inserisci l'email" maxlength="30">
+                    <p class="errore" id="err-emailEmpty">Email cannot be empty</p>
+                    <p class="errore" id="err-emailWrong">The email just put is wrong</p>
+                </div>
+
+                <div class="errore-div">
+                    <input type="password" class="campo" name="PASSWORD" id="password" placeholder="Inserisci la password" maxlength="30">
+                    <p class="errore"  id="err-password">Password cannot be empty</p>
+                    <input type="checkbox" class="mostra" id="mostra" onclick="mostraPassword()"> Mostra password
+                </div>
+                
+                <button onclick="controlla()">CLAIM YOUR FREE TRIAL</button>
+                <br> <br>
+                <div class="termini-servizi">
+                    <p class="termini">By clicking the button, you are agreeing to our</p>
+                    <a href="" class="servizi">Terms and Services</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: Poppins-E;
+    src: url(/css/Poppins-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: Poppins-M;
+    src: url(/css/Poppins-Medium.ttf);
+}
+
+body {
+    color: white;
+    background-color: #674bb1;    
+    background-image: url('/imgs/bg-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+
+.container {
+    display: flex;
+    width: 70%;
+    height: 70%;
+    
+    margin: auto;
+    margin-top: 125px;
+}
+
+.logo{
+    margin-top: 50px;
+    margin-left: 30px;
+
+    width: 200px;
+    height: 70px;
+
+    content: url('/imgs/logo.svg');
+}
+
+.container-img {
+    margin-top: 50px;
+    margin-left: 30px;
+
+    content: url('/imgs/illustration-mockups.svg');
+}
+
+.scritte {
+    margin-top: 225px;
+    margin-left: 56px;
+    width: 460px;
+}
+
+.titolo {
+    font-size: 2.1rem;
+    font-weight: bold;
+    font-family: Poppins-M;
+
+    margin-bottom: 20px;
+}
+
+.didascalia {
+    font-size: 0.9rem;
+    font-family: Poppins-E;
+}
+
+.scritte button {
+    margin-top: 20px;
+
+    width: 170px;
+    height: 45px;
+
+    background-color: rgb(223, 86, 223);
+    border: none;
+    border-radius: 30px;
+    
+    font-family: Poppins-E;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: white;
+
+    box-shadow: 0 5px 10px rgb(62, 59, 59);
+    cursor: pointer;
+}
+
+.scritte button:hover {
+    transform: scale(1.08);
+    transition: 0.2s ease;
+}
+
+.scritte button:not(:hover) {
+    transform: scale(1);
+    transition: 0.3s ease;
+}
+
+.social {
+    float: right;
+    margin-top: 0px;
+    margin-right: 300px;
+    text-align: center;
+
+    width: 300px;
+    height: 50px;
+}
+
+.fa {
+    padding: 16px;
+    margin-left: 5px;
+    text-decoration: none;
+    font-size: 2rem;
+
+    cursor: pointer;
+    border-radius: 50%;
+    border: solid 2px white;
+
+    color: white;
+}
+  
+.fa:hover {
+    color: rgb(206, 67, 199);
+    transition: 0.2s ease;
+    border: solid 2px rgb(206, 67, 199);
+}
+
+.fa:not(:hover) {
+    color: white;
+    transition: 0.3s ease;
+    border: solid 2px white;
+}
+
+.fa-facebook {
+    
+}
+  

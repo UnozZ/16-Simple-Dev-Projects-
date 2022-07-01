@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: jose-L;
+    src: url(/css/JosefinSans-Light.ttf);
+}
+
+@font-face {
+    font-family: jose-M;
+    src: url(/css/JosefinSans-Medium.ttf);
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    
+    margin: auto;
+    margin-top: 10%;
+    width: 1200px;
+    height: 600px;
+
+    background-color: white;
+    box-shadow: 0 0 15px black;
+    border-radius: 20px;
+}
+
+.parteSX {
+    width: 700px;
+    height: 600px;
+}
+
+.logo {
+    content: url(/imgs/logo.svg);
+
+    margin-top: 50px;
+    margin-left: 110px;
+}
+
+.scritte {
+    margin-top: 80px;
+    margin-left: 110px;
+}
+
+.titolo1 {
+    font-family: jose-L;
+    font-size: 3.2rem;
+
+    color: hsl(0, 36%, 70%);
+
+    letter-spacing: 8px;
+}
+
+.titolo2 {
+    margin-bottom: 20px;
+
+    font-family: jose-M;
+    font-size: 3.2rem;
+
+    letter-spacing: 8px;
+}
+
+.didascalia {
+    margin-top: 6px;
+    
+    font-family: jose-L;
+    font-size: 1.1rem;
+    color: hsl(0, 36%, 70%);
+
+    word-spacing: 2px;
+}
+
+.inserisci {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 110px;
+    
+    width: 350px;
+    height: 40px;
+
+    border-radius: 30px;
+    
+    border: solid 2px rgb(214, 207, 207);
+}
+
+.inserisci img {
+    margin-top: 5px;
+    margin-left: 5px;
+
+    width: 30px;
+    height: 30px;
+}
+
+.input {
+    margin-left: 20px;
+    width: 200px;
+}
+
+.input input {
+    margin-top: 9px;
+    margin-left: 10px;
+
+    width: 200px;
+    height: 20px;
+
+    font-size: 0.9rem;
+    
+
+    border: none;
+}
+
+.input input:focus {
+    border: none;
+    outline: none;
+}
+
+.btn-invia {
+    position: fixed;
+    
+    margin-left: 270px;
+}
+
+.btn-invia button {
+    width: 80px;
+    height: 40px;
+
+    cursor: pointer;
+
+    background-image: url(/imgs/icon-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: hsl(0, 60%, 84%);
+
+    box-shadow: 0 5px 10px rgb(80, 77, 77);
+
+    border-radius: 30px;
+    border: none;
+}
+
+.btn-invia button:hover {
+    transform: scale(1.14);
+    transition: 0.3s ease;
+}
+
+.btn-invia button:not(:hover) {
+    transform: scale(1);
+    transition: 0.3s ease;
+}
+
+.risposta {
+    margin-top: 10px;
+    margin-left: 120px;
+}
+
+#ok {
+    font-family: jose-L;
+    font-weight: bold;
+
+    color: green;
+}
+
+#no {
+    font-family: jose-L;
+    font-weight: bold;
+    
+    color: red;
+}
+
+.parteDX {
+    width: 500px;
+    height: 600px;
+
+    content: url(/imgs/hero-desktop.jpg);
+
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}

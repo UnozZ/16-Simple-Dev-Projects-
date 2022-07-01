@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="parteSX">
+            <div class="logo"></div>
+            <div class="scritte">
+                <p class="titolo1">WE'RE</p>
+                <p class="titolo2">COMING <br> SOON</p>
+                <p class="didascalia">Hello fellow shoppers! We're currently building our new</p>
+                <p class="didascalia">fashion store. Add your email to stay up-to-date with</p>
+                <p class="didascalia">announcements and our lunch deals.</p>
+            </div>
+            <div class="inserisci" id="inserisci">
+                <form id="form" action="#">
+                    <div class="input">
+                        <input type="email" name="EMAIL" id="em" maxlength="30" placeholder="Inserisci indirizzo email">
+                    </div>
+                </form>
+                <img src="/imgs/icon-error.svg" alt="" id="img-no">
+                <img src="/imgs/valid.png" alt="" id="img-ok">
+                <div class="btn-invia">
+                    <button onclick="controlla()"></button>
+                </div>
+            </div>
+            <div class="risposta">
+                <p id="ok">L'email è valido</p>
+                <p id="no">L'email NON è valido!</p>
+            </div>
+        </div>
+        <div class="parteDX"></div>
+    </div>
+
+    <script src="/js/app.js"></script>
+</body>
+</html>
